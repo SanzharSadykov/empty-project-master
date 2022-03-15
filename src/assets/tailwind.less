@@ -1,0 +1,30 @@
+// src/assets/tailwind.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact{
+    .phone{
+        border: 1px solid #008A44;
+        border-radius: 5px;
+        outline: 1px solid #008A44;
+        background-color: #008A44;
+        padding: 10px 18px;
+    }
+    .phone-circle{
+        top: 0;
+        left: 0;
+        transform: translate(-5%, -40%);
+        border: 1px solid #DF2328;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        background: linear-gradient(185.44deg, #EC6F76 4.35%, #D9282D 18.29%), linear-gradient(179.58deg, #DF2328 83.8%, #FF7B82 98.55%), #DF2328;        
+        padding: 10px 15px;   
+        outline: 5px solid #fff;
+        & img{
+            margin: 10% auto 0 auto;
+            display: block;
+        }     
+    }
+}
