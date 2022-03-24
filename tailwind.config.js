@@ -11,6 +11,9 @@ module.exports = {
           "sky": "#2D9CDB",
           "ash": "#828282",
           "sea": "#0065F2",
+          "cream": "#f3f4ed",
+          "darkgrey": "#918a8a",
+          "lightgrey": "#cbcbcb"
         },
       },
     },

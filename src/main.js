@@ -5,7 +5,9 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import '@/assets/fonts/stylesheet.css'
 import './assets/tailwind.less';
 import store from './store'
+import YmapPlugins from 'vue-yandex-maps'
 
+Vue.use(YmapPlugins)
 Vue.config.productionTip = false
 
 new Vue({
